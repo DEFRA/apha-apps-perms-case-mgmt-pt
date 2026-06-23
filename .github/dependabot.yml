@@ -6,15 +6,11 @@ updates:
     schedule:
       interval: weekly
       day: monday
-      time: '10:30'
-      timezone: 'Europe/London'
+      time: "10:30"
+      timezone: "Europe/London"
     open-pull-requests-limit: 10
     groups:
       actions-security-updates:
         applies-to: security-updates
         patterns:
-          - '*'
-      actions-version-updates:
-        applies-to: version-updates
-        patterns:
-          - '*'
+          - "*"
